@@ -20,7 +20,7 @@ const Navbar = () => {
     },
     {
       name: "Services",
-      link: "#about",
+      link: "#services",
     },
     {
       name: "Features",
@@ -32,7 +32,7 @@ const Navbar = () => {
     },
   ];
   return (
-    <header className="text-[#a4aead] h-[3.75rem] 2xl:h-[4.75rem] bg-[#1d2126] w-full px-[9.75rem] 2xl:px-[23.4rem] flex justify-between items-center">
+    <header className="text-[#a4aead] h-[3.75rem] 2xl:h-[4.75rem] bg-[#1d2126] w-full px-[9.75rem] 2xl:px-[23.4rem] flex justify-between items-center fixed top-0 z-10">
       <div className="logo">
         <img src="/src/assets/logo.png" alt="modest logo" />
       </div>
