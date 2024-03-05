@@ -34,7 +34,7 @@ const TeamCard = ({ name, pic, role }: TeamCardProps) => {
           ))}
         </div>
       </div>
-      <div className="py-3 px-4 flex flex-col justify-center bg-[#e1e6ea] overlay_bottom">
+      <div className="py-3 px-4 flex flex-col justify-center bg-bg-light overlay_bottom">
         <h3 className="uppercase text-text-dark-primary text-[1rem] font-[500] tracking-tight">
           {name}
         </h3>

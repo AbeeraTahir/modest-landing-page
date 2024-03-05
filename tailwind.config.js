@@ -8,6 +8,7 @@ export default {
         "section-dark-color": "#3a454d",
         "text-dark-primary": "#292f36",
         "text-dark-secondary": "#8d8f92",
+        "bg-light": "#e1e6ea",
       },
     },
   },
