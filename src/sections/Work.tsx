@@ -13,7 +13,9 @@ const Work = () => {
       </div>
       <div className="flex flex-wrap items-center mt-11 gap-5">
         {workList.map((work) => (
-          <div className="w-[327px] overlay_container cursor-pointer">
+          <div
+            key={work}
+            className="w-[327px] overlay_container cursor-pointer">
             <img src={`/src/assets/work/${work}.png`} alt={work} />
             <div className="work_overlay">
               <div className="flex flex-col">

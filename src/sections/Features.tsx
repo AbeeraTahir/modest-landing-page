@@ -18,7 +18,7 @@ const Features = () => {
     },
     {
       pic: "showcase",
-      title: "product design: eames chairs",
+      title: "a showcase of creative",
       description:
         "It’s always interesting to see another designer’s take on a famous website, app or even physical product. Different designers add their own personality and style.",
     },
