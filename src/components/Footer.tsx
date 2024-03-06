@@ -5,7 +5,7 @@ const Footer = () => {
         <p className="text-sm text-white">
           © Copyright 2014 by PSD Booster. All Rights Reserved.
         </p>
-        <img src="/src/assets/icons.png" alt="icons" />
+        <img src="/assets/icons.png" alt="icons" />
       </div>
     </section>
   );

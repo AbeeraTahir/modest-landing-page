@@ -60,7 +60,7 @@ const About = () => {
             {socialMediaIcons.map(({ name, url }) => (
               <a href={url} target="__blank" key={name}>
                 <div className="bg-[#c8cdd0] hover:bg-[#d0d5d9] w-[60px] h-[60px] flex justify-center items-center border border-whit">
-                  <img src={`/src/assets/${name}.png`} alt={name} />
+                  <img src={`/assets/${name}.png`} alt={name} />
                 </div>
               </a>
             ))}

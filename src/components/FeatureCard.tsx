@@ -8,7 +8,7 @@ const FeatureCard = ({ pic, title, description }: FeatureCardProps) => {
   return (
     <div className="flex flex-col gap-8">
       <img
-        src={`/src/assets/features/${pic}.png`}
+        src={`/assets/features/${pic}.png`}
         alt={title}
         className="w-[361px] h-[220px]"
       />

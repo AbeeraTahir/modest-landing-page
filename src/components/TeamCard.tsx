@@ -16,7 +16,7 @@ const TeamCard = ({ name, pic, role }: TeamCardProps) => {
   return (
     <div className="flex flex-col overlay_container cursor-pointer">
       <div className="w-[230px] h-[263px]">
-        <img src={`/src/assets/${pic}.png`} alt={pic} />
+        <img src={`/assets/${pic}.png`} alt={pic} />
       </div>
       <div className="overlay">
         <div className="flex items-center gap-[1px]">
@@ -24,7 +24,7 @@ const TeamCard = ({ name, pic, role }: TeamCardProps) => {
             <a href={url} target="__blank" key={url}>
               <div className="w-12 h-12 bg-[#3a454d] hover:bg-[#4e5a62] flex justify-center items-center">
                 <img
-                  src={`/src/assets/${name}.png`}
+                  src={`/assets/${name}.png`}
                   alt={name}
                   className="w-[14px] h-[14px]"
                 />

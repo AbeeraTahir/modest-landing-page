@@ -15,7 +15,7 @@ const Work = () => {
           <div
             key={work}
             className="w-[327px] overlay_container cursor-pointer">
-            <img src={`/src/assets/work/${work}.png`} alt={work} />
+            <img src={`/assets/work/${work}.png`} alt={work} />
             <div className="work_overlay">
               <div className="flex flex-col">
                 <div className="bg-[##3b6062] bg-opacity-50 absolute top-0 left-0 w-full h-[85%] flex justify-center items-center">
