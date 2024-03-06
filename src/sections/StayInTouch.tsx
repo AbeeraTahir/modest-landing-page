@@ -1,5 +1,3 @@
-import React from "react";
-
 const StayInTouch = () => {
   return (
     <section id="contact" className="py-24 bg-white">

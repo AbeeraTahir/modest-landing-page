@@ -1,5 +1,3 @@
-import React from "react";
-
 const Footer = () => {
   return (
     <section className="w-full h-[4rem] 2xl:h-[4.75rem] bg-section-dark-color">

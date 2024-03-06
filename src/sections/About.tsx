@@ -1,4 +1,3 @@
-import React from "react";
 import AboutCard from "../components/AboutCard";
 import Wrapper from "../components/Wrapper";
 
