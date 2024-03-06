@@ -3,7 +3,7 @@ import React from "react";
 const Hero = () => {
   return (
     <section className="h-screen hero flex items-center pl-[9.75rem]">
-      <div className="flex flex-col gap-6 text-white mt-[2rem] max-w-2xl">
+      <div className="flex flex-col gap-6 text-white mt-[3rem] max-w-2xl">
         <h1 className="text-4xl font-[400] uppercase">
           welcome to our marketplace
         </h1>
