@@ -13,10 +13,10 @@ const Hero = () => {
           lacus ...
         </p>
         <div className="flex gap-4 items-center mt-1">
-          <button className="w-[7.8rem] h-11 text-[0.875rem] hover:bg-primary-color hover:border-none text-white uppercase border-2 rounded">
+          <button className="w-[7.8rem] h-11 text-[0.875rem] hover:bg-primary-color hover:border-none text-white uppercase border-2 rounded transition-all duration-300 ease-in">
             view more
           </button>
-          <button className="w-[7.85rem] h-11 text-[0.875rem] hover:bg-primary-color hover:border-none text-white uppercase border-2 rounded">
+          <button className="w-[7.85rem] h-11 text-[0.875rem] hover:bg-primary-color hover:border-none text-white uppercase border-2 rounded transition-all duration-300 ease-in">
             video tour
           </button>
         </div>
