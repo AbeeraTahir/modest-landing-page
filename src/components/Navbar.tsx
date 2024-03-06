@@ -60,7 +60,7 @@ const Navbar = () => {
   return (
     <header className="text-[#a4aead] h-[3.75rem] 2xl:h-[4.75rem] bg-[#1d2126] w-full px-[9.75rem] 2xl:px-[18.4rem] flex justify-between items-center fixed top-0 z-10">
       <div className="logo">
-        <img src="/src/assets/logo.png" alt="modest logo" />
+        <img src="/logo.png" alt="modest logo" />
       </div>
       <nav>
         <ul className="flex gap-8 items-center text-[0.875rem] font-[500]">
