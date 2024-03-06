@@ -4,7 +4,7 @@ import Wrapper from "../components/Wrapper";
 const Work = () => {
   const workList = ["work1", "work2", "work3", "work4", "work5", "work6"];
   return (
-    <Wrapper dark>
+    <Wrapper id="work" dark>
       <div className="flex items-center gap-4">
         <div className="w-[10px] h-[35px] bg-[#4e5a62]" />
         <h2 className="uppercase text-4xl tracking-tight font-[400] text-white">

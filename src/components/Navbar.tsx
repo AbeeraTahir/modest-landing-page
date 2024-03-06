@@ -4,7 +4,7 @@ const Navbar = () => {
   const links = [
     {
       name: "Home",
-      link: "",
+      link: "#",
     },
     {
       name: "About",

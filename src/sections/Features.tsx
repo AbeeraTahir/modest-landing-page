@@ -24,7 +24,7 @@ const Features = () => {
     },
   ];
   return (
-    <Wrapper dark>
+    <Wrapper id="features" dark>
       <div className="flex items-center gap-4">
         <div className="w-[10px] h-[35px] bg-[#4e5a62]" />
         <h2 className="uppercase text-4xl tracking-tight font-[400] text-white">
