@@ -9,13 +9,9 @@ const StayInTouch = () => {
           stay in touch.
         </h2>
       </div>
-      <div className="mt-11 relative">
-        <img
-          src="/src/assets/map.png"
-          alt="map"
-          className="max-w-full h-[270px]"
-        />
-        <div className="absolute top-[170px] right-[200px] w-[470px] bg-white p-6 flex flex-col gap-6">
+      <div className="mt-11 relative border">
+        <img src="/src/assets/map.png" alt="map" className="w-full h-[270px]" />
+        <div className="absolute top-[170px] right-[200px] 2xl:right-[270px] w-[470px] bg-white p-6 flex flex-col gap-6">
           <div className="w-full flex gap-3 items-center">
             <div className="w-1/2 flex flex-col gap-2">
               <label
