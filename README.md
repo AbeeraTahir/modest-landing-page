@@ -1,30 +1,138 @@
-# React + TypeScript + Vite
+<!-- TABLE OF CONTENTS -->
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 📗 Table of Contents
 
-Currently, two official plugins are available:
+- [📖 Modest Landing Page](#modest)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Setup](#setup)
+  - [Install](#install)
+  - [Usage](#usage)
+- [👥 Author](#author)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<!-- PROJECT DESCRIPTION -->
 
-## Expanding the ESLint configuration
+# 📖 Modest Landing Page <a name="modest"></a>
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+**Modest Landing Page** is a desktop landing page, built with React, inspired from the [Modest Landing Page PSD Design](https://graphicburger.com/modest-psd-landing-page/). The landing page consists of different sections representing different information, such as about, team, work, services, features, and contact.
 
-- Configure the top-level `parserOptions` property like this:
+## 🛠 Built With <a name="built-with"></a>
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+### Tech Stack <a name="tech-stack"></a>
+
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://react.dev/">React</a></li>
+    <li><a href="https://www.typescriptlang.org/">TypeScript</a></li>
+    <li><a href="https://tailwindcss.com/">Tailwind CSS</a></li>
+  </ul>
+</details>
+
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+- Desktop landing page design.
+- Different sections representing different information, such as about, team, work, services, features, and contact.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Click here to see the live project](https://modest-landing-page.netlify.app/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps.
+
+### Prerequisites
+
+In order to run this project you need:
+
+- [Node.js](https://nodejs.org/en) installed.
+
+### Setup
+
+Clone this repository to your desired folder:
+
+```sh
+  git clone https://github.com/AbeeraTahir/modest-landing-page.git
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### Install
+
+Install this project with:
+
+```sh
+  npm install
+```
+
+### Usage
+
+To run the project, execute the following command:
+
+```sh
+  npm run dev
+```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
+
+## 👥 Author <a name="author"></a>
+
+👤 **Abeera Tahir**
+
+- GitHub: [@AbeeraTahir](https://github.com/AbeeraTahir)
+- LinkedIn: [Abeera Tahir](https://linkedin.com/in/abeera-tahir/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+Please give a ⭐️, if you like this project.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+Inspired from [Modest Landing Page PSD Design](https://graphicburger.com/modest-psd-landing-page/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
